@@ -28,7 +28,7 @@ def key_filter(bib_file_path:str):
         bibfile.write(bib_data.to_string('bibtex'))
 
 
-def unify_arxiv_format_(bib_file_path:str):
+def unify_arxiv_format(bib_file_path:str):
     '''
     Unify the format of arxiv entries.Translate CoRR to arXiv preprint arXiv:.
     Args:
