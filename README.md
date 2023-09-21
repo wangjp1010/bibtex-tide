@@ -13,3 +13,7 @@
 RULES.PY中定义了要保留的keys，文献缩写及正则表达（不断添加完善）。
 
 修改bib文件路径后即可一键运行。
+
+
+## PS:
+若需本地部署端到端运行而非在线工具，这里也提供了docker部署过程，详见[这个仓库](https://github.com/fkcptlst/bibtex-tidy/)
